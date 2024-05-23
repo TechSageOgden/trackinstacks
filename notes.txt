@@ -1,0 +1,9 @@
+Expense Tracker App, STATELESS!!
+
+Needs:
+    Item Name Input
+    Item Cost Input
+    Selection Debit/Credit
+    Total Display
+    Transactions Display
+    

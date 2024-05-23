@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Simple stateless project for demonstartion purposes by Wides">
+    <meta name="keywords" content="expense, income, debit, credit, transactions, demo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trackin Stacks! 📈</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h3>Trackin Stacks 📈</h3>
+    </nav>
+
+    <div id="total-display">
+        <h1 id="total">1,000</h1>
+    </div>
+
+    <div id="inputs-display">
+        <div class="input-group">
+            <label for="description">Desc:</label>
+            <input type="text" name="description" id="description">
+        </div>
+        <div class="input-group">
+            <label for="amount">Amt: </label>
+            <input type="number" name="amount" id="amount">
+        </div>
+        <div class="input-group">
+            <select name="type" id="type">
+                <option value="debit">Debit</option>
+                <option value="credit">Credit</option>
+            </select>
+        </div>
+        <button id="calc-button">Add Entry</button>
+
+        
+    </div>
+
+    <div id="transaction-list">
+        <h3>Transaction List</h3>
+        <div class="transaction-group">
+            <div class="transaction-desc">
+                <p>This is a Trans</p>
+            </div>
+            <div class="transaction-amount">
+                <p>10.00</p>
+            </div>
+        </div>
+        <div class="transaction-group">
+            <div class="transaction-desc">
+                <p>This is a Trans</p>
+            </div>
+            <div class="transaction-amount">
+                <p>10.00</p>
+            </div>
+        </div>
+        <div class="transaction-group">
+            <div class="transaction-desc">
+                <p>This is a Trans</p>
+            </div>
+            <div class="transaction-amount">
+                <p>10.00</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h5><small>&copy; 2024</small> <em>Wides🎸</em></h5>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
