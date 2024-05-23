@@ -6,4 +6,10 @@ Needs:
     Selection Debit/Credit
     Total Display
     Transactions Display
-    
+
+
+Script Needs:
+    retrieve data from inputs
+    format input data into transaction list
+    compute total and update display
+    determine whether total is pos or neg and update css

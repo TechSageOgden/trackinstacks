@@ -23,7 +23,7 @@ div#total-display {
     color: rgb(24, 189, 24);
 }
 
-div#total-display.neg {
+div#total-display h1#total.red {
     color: rgb(211, 19, 19);
 }
 
@@ -77,6 +77,10 @@ div#transaction-list {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    background-color: #ccc;
+    color: #111;
+    padding: 2rem;
+    font-weight: 500;
 }
 
 div.transaction-group {
@@ -87,6 +91,14 @@ div.transaction-group {
     width: 65vw;
     border-bottom: 2px dashed #999;
     padding: 0;
+}
+
+div.transaction-amount p.red {
+    color: rgb(211, 19, 19);
+}
+
+div.transaction-amount p.green {
+    color: rgb(24, 189, 24);
 }
 
 footer {
